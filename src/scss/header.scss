@@ -25,12 +25,26 @@
   &__email {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   &__phone {
+    margin-left: 15px;
     &--wrap {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__callback {
+    margin-left: 15px;
+    &--link {
+      display: block;
+      padding: 15px;
+      border: 1px solid #ccc;
+      color: #252525;
+      border-radius: 4px;
     }
   }
 }
