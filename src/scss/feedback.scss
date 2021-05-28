@@ -1,0 +1,18 @@
+.feedback {
+  padding: 50px calc(50% - 600px);
+  background-color: #ccc;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 300px;
+
+  &__text,
+  &__form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

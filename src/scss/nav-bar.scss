@@ -1,0 +1,41 @@
+.nav {
+  &-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding: 10px 15px;
+    &:hover {
+      background-color: #ccc;
+      color: #fff;
+    }
+  }
+
+  &__link {
+    color: #252525;
+    text-decoration: none;
+  }
+
+  &__secondary {
+    display: flex;
+  }
+}
+
+.exchange {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
